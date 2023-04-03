@@ -1,0 +1,78 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  /* font-family: 'Roboto', sans-serif; */
+}
+
+nav{
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.container{
+  background-color: cornsilk;
+  width: 70%;
+  margin: auto;
+  min-height: 100vh;
+}
+
+.container > form {
+  display: flex;
+  flex-direction:column;
+  box-sizing: border-box;
+  padding:4vmax;
+}
+
+input,textarea,button{
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button{
+  border: none;
+  cursor: pointer;
+  background-color: aqua;
+  border-radius: 10px;
+
+}
+
+.container>h1{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.task{
+  display: flex;
+  background-color: antiquewhite;
+  padding: 20px;
+  margin: 20px 0;
+  align-items: center;
+}
+
+.task span{
+  color: rgb(78, 75, 75);
+}
+
+.task>div{
+  width: 100%
+  
+}
+
+.task>button{
+  display: flex;
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  /* font-size: 1.6rem; */
+
+}
+
+.task>button:hover{
+  background-color: greenyellow;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap');
